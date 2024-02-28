@@ -89,8 +89,8 @@ jobs:
 
       - uses: azure/webapps-deploy@v2
         with:
-          app-name: 'mmjrkdfrduwohimpnpreg'
-          images: .azurecr.io/techboost/dotnetcoreapp:${{github.run_number}}
+          app-name: 'mjrkdfrduwohi-dev'
+          images: mjrkdfrduwohimpnpreg.azurecr.io/techboost/dotnetcoreapp:${{github.run_number}}
 
   deploy-to-test:
   
